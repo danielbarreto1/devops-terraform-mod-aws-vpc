@@ -5,7 +5,7 @@ variable "vpc_cidr_block" {
 variable "tags" {
   type        = map(string)
   default     = {}
-  description = "Tags para aplicar nos recursos"
+  description = "Tags para aplicar nos recursos da vpc"
 }
 
 variable "enable_flow_log" {
